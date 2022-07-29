@@ -6,7 +6,7 @@ function TodoList(props) {
         <section>
             <ul>
                 <li>
-                    <TodoItem text={props.text}/>
+                    {props.children}
                 </li>
             </ul>
         </section>
