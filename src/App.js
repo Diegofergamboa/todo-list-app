@@ -1,17 +1,27 @@
-import react from "react";
+import React from "react";
+import { TodoCounter } from './TodoCounter';
+import { TodoSearch } from './TodoSearch';
+import { TodoList } from './TodoList';
+
 
 
 function App() {
-  // La construcción de los componentes de da a través del análisis previo de funcionalidades.
+  // La construcción de los componentes se da a través del análisis previo de funcionalidades.
+  const todos = [
+    {text: 'First ToDo', completed : true},
+    {text: 'Second ToDo', completed : true},
+    {text: 'Third ToDo', completed : true},
+  ];
+
   
   return (
     <>
       <TodoCounter />
       <TodoSearch />
       <TodoList >
-        <TodoItem />
-      <TodoList />
-      <CreateTodoButton />
+          {todos.map(todo => (todo.text))}
+      </TodoList >
+      {/*  <CreateTodoButton /> */}
     </>
   );
 };
