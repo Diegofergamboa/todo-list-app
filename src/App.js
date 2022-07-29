@@ -1,16 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import react from "react";
 
 
 function App() {
-
+  // La construcción de los componentes de da a través del análisis previo de funcionalidades.
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hola world!</h1>
-      </header>
-    </div>
+    <>
+      <TodoCounter />
+      <TodoSearch />
+      <TodoList >
+        <TodoItem />
+      <TodoList />
+      <CreateTodoButton />
+    </>
   );
-}
+};
 
 export default App;
