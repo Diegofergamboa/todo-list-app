@@ -3,7 +3,10 @@ import './TodoTheme.sass';
 
 function TodoTheme() {
     return (
-        <input type={checkbox}></input>
+        <label className='switch'>
+            <input type="checkbox"></input>
+            <span className='slider'></span>
+        </label>
     );
 };
 
