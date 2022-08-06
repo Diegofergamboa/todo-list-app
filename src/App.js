@@ -3,8 +3,8 @@ import { TodoCounter } from './TodoCounter';
 import { TodoSearch } from './TodoSearch';
 import { TodoList } from './TodoList';
 import { TodoItem } from "./TodoItem";
+import { TodoTheme } from "./TodoTheme";
 import { CreateTodoButton } from "./CreateTodoButton";
-
 
 function App() {
   // La construcción de los componentes se da a través del análisis previo de funcionalidades.
@@ -22,6 +22,7 @@ function App() {
       <TodoList >
           {todos.map(todo => <TodoItem key={todo.text} text={todo.text}/>)}
       </TodoList >
+      <TodoTheme/>
       <CreateTodoButton />
     </>
   );
