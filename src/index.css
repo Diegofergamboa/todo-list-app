@@ -1,0 +1,31 @@
+
+@import './var.css';
+
+#root {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 5%;
+    width: 35%;
+    min-width: 230px;
+    height: 600px;
+    background-image: url('https://i.pinimg.com/1200x/8a/11/6e/8a116e33870c32e65870286ab9dee9d4.jpg');
+    border: 1px solid black;
+    color: #efeddc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px gray;
+    margin: 20px;
+}
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Inconsolata', monospace;
+    overflow: hidden;
+}
+
+

@@ -1,0 +1,21 @@
+
+/* font-variable */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Inter:wght@300;400;900&family=VT323&display=swap');
+
+:root {
+    --synthwave-theme-bg-color: #0b0205 ;
+    --synthwave-theme-principal-color: #2c1b47;
+    --synthwave-theme-secondary-color: #724c9d;
+    --synthwave-theme-third-color: #dccae9;
+    --synthwave-theme-warning-color: #9356A0;
+    --cloud-theme-principal-color: #0D2357;
+    --cloud-theme-secondary-color: #024D8C;
+    --cloud-theme-third-color: #FFDB02;
+    --cloud-theme-sucess-color: #F3F7FA;
+    --cloud-theme-warning-color: #F78A8F;
+};
+
+
+
+
+
